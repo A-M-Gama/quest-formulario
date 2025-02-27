@@ -6,9 +6,9 @@ Projeto de uma página com um formulário
 
 ### HTML
 - Estrutura do projeto
-- 
+  
 ### CSS
 - Estilo do projeto
-- 
+  
 ### JS
 - Validação do formulário
