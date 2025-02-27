@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background: url(../images/bg-repeat.jpg);
+    background-repeat: repeat-x;
+    height: 100vh;
+    background-size: contain;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 60px;
+    font-size: 1.5rem;
+}
+
+.texto-inicial {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 300px;
+}
+
+.titulo-texto-inicial h2 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.texto-adicional p {
+    color: #fff;
+}
+
+.formulario {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.inputs-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input {
+    padding: 8px 0 8px 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    min-width: 288px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+#mensagem {
+    padding-bottom: 73px;
+    resize: none;
+}
+
+.mensagem-campo-obrigatorio {
+    color: red;
+    margin-top: -15px;
+    padding: 0 3px;
+    font-size: 0.8rem;
+    display: none;
+}
+
+.campo-obrigatorio {
+    margin: 10px 0 20px;
+}
+
+.botao-enviar {
+    background-color: #3CCC87;
+    border: none;
+    width: 100%;
+    padding: 12px 0px;   
+    border-radius: 5px; 
+}
+
+.borda-vermelha {
+    border: 1px solid red !important;
+}
+
+.borda-verde {
+    border-color: #00C22B;
+}
