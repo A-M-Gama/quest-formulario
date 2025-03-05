@@ -21,8 +21,8 @@ document.getElementById("btn-enviar").addEventListener('click', () => {
         }
     }
     
-    const validoNome = validarFormulario(nome, obrigatorioNome);
-    const validoEmail = validarFormulario(email, obrigatorioEmail);
-    const validoTelefone = validarFormulario(telefone, obrigatorioTelefone);
-    const validoMensagem = validarFormulario(mensagem, obrigatorioMensagem);
+    validarFormulario(nome, obrigatorioNome);
+    validarFormulario(email, obrigatorioEmail);
+    validarFormulario(telefone, obrigatorioTelefone);
+    validarFormulario(mensagem, obrigatorioMensagem);
 });
