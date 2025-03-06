@@ -85,3 +85,12 @@ body {
 .borda-verde {
     border-color: #00C22B;
 }
+
+@media (max-width:710px) {
+    body {
+        height: 150vh;
+    }
+    .container {
+        flex-direction: column;
+    }
+}
